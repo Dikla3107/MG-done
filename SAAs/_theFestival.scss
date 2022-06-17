@@ -1,0 +1,209 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: $navbgc;
+}
+
+.mainHeader {
+    @extend %header
+}
+
+.picFes {
+    background-image: url('../pics/fes.jpeg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 830px;
+
+}
+
+.cound {
+    width: 100vw;
+    height: 100px;
+    background-color: $navbgc;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.205);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.countDownValues {
+    width: 25vw;
+    text-align: center;
+    font-family: 'pattaya';
+    font-size: 30px;
+    color: $navcolor;
+}
+
+.textcound {
+    width: 25vw;
+    font-family: 'pattaya';
+    text-align: center;
+    font-size: 20px;
+    color: $yellow;
+}
+
+.h1-about-container {
+    width: 100px;
+    height: auto;
+}
+
+.styleAbout {
+    font-family: 'Henny Penny';
+    font-size: 5em;
+    color: $navcolor;
+    text-shadow: -5px 3px 3px rgba(0, 0, 0, 0.475);
+    text-align: center;
+    margin-right: 500px;
+    @include mobile{
+        font-size: 2.5em;
+        margin-right: 200px;
+    }
+}
+
+.styleMardi {
+    font-family: 'Henny Penny';
+    font-size: 5em;
+    color: $green;
+    text-shadow: -5px 3px 3px rgba(0, 0, 0, 0.475);
+    text-align: center;
+    margin-top: -70px;
+    @include mobile {
+        font-size: 2.5em;
+        margin-top: -15px;
+    }
+}
+
+.styleGras {
+    font-family: 'Henny Penny';
+    font-size: 5em;
+    color: $yellow;
+    text-shadow: -5px 3px 3px rgba(0, 0, 0, 0.475);
+    text-align: center;
+    margin-left: 500px;
+    margin-top: -70px;
+
+    @include mobile {
+        font-size: 2.5em;
+        margin-top: 5px;
+        margin-left: 150px;
+    }
+}
+
+.para {
+    width: 100vw;
+    height: auto;
+    background-color: $navbgc;
+    display: flex;
+    text-align: justify;
+    justify-content: center;
+
+    @include mobile {
+        width: 100vw;
+        height: auto;
+        background-color: $navbgc;
+        text-align: left;
+    }
+}
+
+.para1 {
+    width: 30.3vw;
+    color: $navcolor;
+    margin: 20px;
+    font-family: 'Roboto';
+    font-size: 1.2em;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.089);
+
+    @include mobile {
+        font-size: 0.8em;
+    }
+
+}
+
+.para2 {
+    width: 30.3vw;
+    color: #ad9406;
+    margin: 20px;
+    font-family: 'Roboto';
+    font-size: 1.2rem;
+    text-shadow: 3px 3px 2px rgba(0, 0, 0, 0.089);
+
+    @include mobile {
+        font-size: 0.8em;
+
+    }
+}
+.para3 {
+    width: 30.3vw;
+    color: $green;
+    margin: 20px;
+    font-family: 'Roboto';
+    font-size: 1.2rem;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.089);
+
+    @include mobile {
+        font-size: 0.8em;
+    }
+}
+
+.mayorC {
+    width: 100vw;
+    height: auto;
+    background-color: $navbgc;
+    text-align: center;
+}
+
+.mayorh1 {
+    font-family: 'Pattaya';
+    font-size: 3.5em;
+    text-align: center;
+    color: $navcolor;
+    margin: 20px;
+
+    @include mobile {
+        font-size: 2.5em;
+
+    }
+}
+
+.mayorp {
+    font-family: 'Roboto';
+    font-size: 2em;
+    color: #ad9406;
+    text-shadow: 3px 3px 2px rgba(0, 0, 0, 0.089);
+    line-height: 1.4;
+    text-align: center;
+    margin: 40px;
+
+    @include mobile {
+        font-size: 1.5em;
+
+    }
+}
+
+.fotter {
+    width: 100vw;
+    height: 70px;
+    background-color: $navbgc;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.205);
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.fotter p {
+    color: $navcolor;
+
+    @include mobile {
+        margin-top: 50px;
+        line-height: 1.5;
+
+    }
+}
