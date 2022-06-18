@@ -58,10 +58,10 @@ body {
 }
 
 .accordion {
-    height: 70px;
+    height: 80px;
     background-color: $navcolor;
     font-family: 'Pattaya', serif;
-    font-size: 1.7rem;
+    font-size: 1.7em;
     color: $navbgc;
     cursor: pointer;
     padding: 18px;
@@ -69,19 +69,26 @@ body {
     text-align: left;
     border: none;
     outline: none;
+    line-height: 1.1;
     @include tablet {
-        line-height: 1.1;
-        font-size: 1.3em;
+        line-height: 1;
+        font-size: 1.2em;
         padding: 10px;
-
+    }
+    @include mobile{
+        line-height: 1.1;
+        font-size: 1.2em;
+        padding: 10px;
+        height: 80px;
+        
     }
 }
 
 .accordion2 {
-    height: 70px;
+    height: 80px;
     background-color: $yellow;
     font-family: 'Pattaya', serif;
-    font-size: 1.7rem;
+    font-size: 1.7em;
     color: $navbgc;
     cursor: pointer;
     padding: 18px;
@@ -89,18 +96,26 @@ body {
     text-align: left;
     border: none;
     outline: none;
+    line-height: 1.1;
     @include tablet {
         line-height: 1.1;
-        font-size: 1.3em;
+        font-size: 1.2em;
         padding: 10px;
+    }
+    @include mobile{
+        line-height: 1.1;
+        font-size: 1.2em;
+        padding: 10px;
+        height: 80px;
+
     }
 }
 
 .accordion3 {
-    height: 70px;
+    height: 80px;
     background-color: $green;
     font-family: 'Pattaya', serif;
-    font-size: 1.7rem;
+    font-size: 1.7em;
     color: $navbgc;
     cursor: pointer;
     padding: 10px;
@@ -108,8 +123,7 @@ body {
     text-align: left;
     border: none;
     outline: none;
-    line-height: 0.9
-    ;
+    line-height: 1.1;
     @include tablet{
         line-height: 1.1;
         font-size: 1.3em;
@@ -119,6 +133,8 @@ body {
         line-height: 1;
         font-size: 1.2em;
         padding: 10px;
+        height: 80px;
+
     }
 }
 .active,
