@@ -131,7 +131,7 @@ body {
     color: #ad9406;
     margin: 20px;
     font-family: 'Roboto';
-    font-size: 1.2rem;
+    font-size: 1.2em;
     text-shadow: 3px 3px 2px rgba(0, 0, 0, 0.089);
 
     @include mobile {
@@ -144,7 +144,7 @@ body {
     color: $green;
     margin: 20px;
     font-family: 'Roboto';
-    font-size: 1.2rem;
+    font-size: 1.2em;
     text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.089);
 
     @include mobile {
