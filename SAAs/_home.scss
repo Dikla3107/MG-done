@@ -339,12 +339,15 @@ body {
 .text {
     color: #ffffff;
     text-shadow: 3px 3px 3px $green;
-    font-size: 3rem;
+    font-size: 3em;
     padding: 8px 12px;
     position: absolute;
     bottom: 8px;
     width: 100%;
     text-align: center;
+    @include mobile{
+        font-size: 1em;
+    }
 }
 
 .numbertext {
@@ -407,12 +410,15 @@ body {
     margin-right: 50px;
     font-family: 'Roboto';
     font-size: 1.2em;
-    color: #00b52f;
+    color: $green;
     line-height: 2;
     text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.089);
     text-align:justify;
     @include mobile {
         font-size: 1em;
+        width: 30vw;
+        margin-left: 25px;
+        margin-right: 25px;
     }
 }
 
@@ -428,6 +434,7 @@ body {
     text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.089);
     @include mobile {
         font-size: 1em;
+        width: 30vw;
     }
 }
 
